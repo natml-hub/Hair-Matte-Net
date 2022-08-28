@@ -2,19 +2,17 @@
 Library/
 Temp/
 obj/
+Logs/
 
 # IDE
 .vscode/
 .gradle/
 .vs/
 
-# NatSuite Framework
-Assets/NatSuite/
-Assets/NatSuite.meta
-
-# Predictors
-Assets/ML
-Assets/ML.meta
+# NatML
+Assets/NatML/
+Assets/NatML.meta
+ProjectSettings/NatMLHub.asset
 
 # Misc
 .DS_Store

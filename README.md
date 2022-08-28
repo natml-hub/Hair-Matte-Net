@@ -1,4 +1,4 @@
-# Hair Dye
+# Hair Matte Net
 This is a proof of concept for hair re-coloring using machine learning.
 
 ## Requirements
@@ -13,10 +13,10 @@ This is a proof of concept for hair re-coloring using machine learning.
 - Windows 10 (64-bit)
 
 ## Quick Tips
-- Explore more ML models on [NatML Hub](https://hub.natsuite.io)
-- See the [NatML documentation](https://docs.natsuite.io/natml).
-- Join the [NatSuite community on Discord](https://discord.gg/y5vwgXkz2f).
+- Explore more ML models on [NatML Hub](https://hub.natml.ai)
+- See the [NatML documentation](https://docs.natml.ai/natml).
+- Join the [NatML community on Discord](https://hub.natml.ai/community).
 - Discuss [NatML on Unity Forums](https://forum.unity.com/threads/open-beta-natml-machine-learning-runtime.1109339/).
-- Contact us at [hi@natsuite.io](mailto:hi@natsuite.io).
+- Contact us at [hi@natml.ai](mailto:hi@natml.ai).
 
 Thank you very much!

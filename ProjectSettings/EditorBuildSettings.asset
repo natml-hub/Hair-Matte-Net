@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/HairDye.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/HairMatteNetSample.unity
+    guid: 74ee05d07f2024e6e861fb99ebadafd1
   m_configObjects: {}

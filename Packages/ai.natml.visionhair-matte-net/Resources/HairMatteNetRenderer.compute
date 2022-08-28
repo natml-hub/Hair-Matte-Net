@@ -1,0 +1,29 @@
+// 
+//  Hair Matte Net
+//  Copyright (c) 2022 NatML Inc. All Rights Reserved.
+//
+
+#pragma kernel CSMain
+
+StructuredBuffer<float> Map;
+RWTexture2D<float4> Result;
+float Strength;
+
+[numthreads(16, 16, 1)]
+void CSMain (uint3 id : SV_DispatchThreadID) {
+    // Check
+    uint width, height;
+    Result.GetDimensions(width, height);
+    if (id.x * id.y >= width * height)
+        return;
+    // Sample
+    int planeSize = width * height;
+    int pixelIdx = id.x + width * (height - id.y - 1);
+    float a = Map[pixelIdx];
+    float b = Map[pixelIdx + planeSize];
+    // Colorize
+    float2 pvec = Strength * float2(a, b);
+    float2 epvec = exp(pvec);
+    float p = epvec.y / (epvec.x + epvec.y);
+    Result[id.xy] = float4(p, p, p, 1.0);
+}

@@ -1,0 +1,30 @@
+{
+    "name": "ai.natml.vision.hair-matte-net",
+    "version": "1.0.0",
+    "displayName": "Hair Matte Net",
+    "description": "Hair matte segmentation in Unity Engine.",
+    "unity": "2020.3",
+    "dependencies": {
+        "ai.natml.natml": "1.0.17"
+    },
+    "keywords": [
+        "natml",
+        "machine learning",
+        "ml",
+        "aritificial intelligence",
+        "mediapipe",
+        "matte",
+        "hair",
+        "hair segmentation",
+        "cosmetics",
+        "computer vision",
+        "augmented reality"
+    ],
+    "author": {
+        "name": "NatML",
+        "email": "hi@natml.ai",
+        "url": "https://github.com/natmlx"
+    },
+    "license": "Apache-2.0",
+    "repository": "github:natml-hub/Hair-Matte-Net"
+}
