@@ -1,6 +1,23 @@
 # Hair Matte Net
 Hair matte segmentation. This predictor implements [HairMatteNet](https://arxiv.org/pdf/1712.07168.pdf).
 
+## Installing Hair Matte Net
+Add the following items to your Unity project's `Packages/manifest.json`:
+```json
+{
+  "scopedRegistries": [
+    {
+      "name": "NatML",
+      "url": "https://registry.npmjs.com",
+      "scopes": ["ai.natml"]
+    }
+  ],
+  "dependencies": {
+    "ai.natml.vision.hair-matte-net": "1.0.0"
+  }
+}
+```
+
 ## Segmenting Hair in an Image
 First, create the predictor:
 ```csharp
