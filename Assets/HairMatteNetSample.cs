@@ -54,7 +54,6 @@ namespace NatML.Examples {
             overlayPanel.texture = hairMask;
             overlayAspectFitter.aspectRatio = aspectRatio;    
             // Create the hair matte predictor
-            Debug.Log("Fetching model data from NatML");
             modelData = await MLModelData.FromHub("@natsuite/hair-matte-net");
             model = modelData.Deserialize();
             predictor = new HairMatteNetPredictor(model);

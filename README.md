@@ -1,22 +1,37 @@
 # Hair Matte Net
-This is a proof of concept for hair re-coloring using machine learning.
+
+![demo](demo.png)
+
+Hair matte segmentation.
+
+## Running the Sample
+Retrieve your access key from [NatML Hub](https://hub.natml.ai/profile) and add it to your Project Settings. Note that running the sample code requires an active [NatML Cloud](https://www.natml.ai/pricing) subscription:
+
+![project settings](https://github.com/natmlx/NatDevice/raw/main/.media/key.png)
+
+## Using the Predictor in a Different Project
+[See the predictor README for more details](Packages/ai.natml.vision.hair-matte-net/README.md).
 
 ## Requirements
-- [NatML 1.0+](https://github.com/natsuite/NatML)
-- [NatDevice 1.1+](https://assetstore.unity.com/packages/tools/integration/natdevice-media-device-api-162053)
-- [@natsuite/hair-matte-net](https://hub.natsuite.io/predictor/@natsuite/hair-matte-net)
+- Unity 2021.2+
 
 ## Supported Platforms
-- Android API level 24+ (Android Nougat or newer)
+- Android API level 24+
 - iOS 13+
-- macOS 10.15+
-- Windows 10 (64-bit)
+- macOS 10.15+ (Apple Silicon and Intel)
+- Windows 10+ (64-bit only)
+- WebGL:
+    - Chrome 91+
+    - Firefox 90+
 
-## Quick Tips
-- Explore more ML models on [NatML Hub](https://hub.natml.ai)
-- See the [NatML documentation](https://docs.natml.ai/natml).
+## Resources
 - Join the [NatML community on Discord](https://hub.natml.ai/community).
+- See the [NatML documentation](https://docs.natml.ai/unity).
+- See the [NatDevice documentation](https://docs.natml.ai/natdevice).
+- Check out [NatML on GitHub](https://github.com/natmlx).
+- Read the [NatML blog](https://blog.natml.ai/).
 - Discuss [NatML on Unity Forums](https://forum.unity.com/threads/open-beta-natml-machine-learning-runtime.1109339/).
+- Discuss [NatDevice on Unity Forums](https://forum.unity.com/threads/natdevice-media-device-api.374690/).
 - Contact us at [hi@natml.ai](mailto:hi@natml.ai).
 
 Thank you very much!

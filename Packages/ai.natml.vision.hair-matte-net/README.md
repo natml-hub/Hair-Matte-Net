@@ -1,5 +1,5 @@
 # Hair Matte Net
-Hair matte segmentation. This predictor implements [HairMatteNet](https://arxiv.org/pdf/1712.07168.pdf). This package requires [NatML](https://github.com/natmlx/NatML).
+Hair matte segmentation. This predictor implements [HairMatteNet](https://arxiv.org/pdf/1712.07168.pdf).
 
 ## Segmenting Hair in an Image
 First, create the predictor:
@@ -32,13 +32,12 @@ matte.Render(hairMask);
 - https://github.com/wonbeomjang/mobile-hair-segmentation-pytorch
 
 ## Requirements
-- Unity 2020.3+
-- [NatML 1.0.16+](https://github.com/natmlx/NatML)
+- Unity 2021.2+
 
 ## Quick Tips
+- Join the [NatML community on Discord](https://hub.natml.ai/community).
 - Discover more ML models on [NatML Hub](https://hub.natml.ai).
 - See the [NatML documentation](https://docs.natml.ai/unity).
-- Join the [NatML community on Discord](https://discord.gg/y5vwgXkz2f).
 - Discuss [NatML on Unity Forums](https://forum.unity.com/threads/natml-machine-learning-runtime.1109339/).
 - Contact us at [hi@natml.ai](mailto:hi@natml.ai).
 
